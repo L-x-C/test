@@ -1,61 +1,44 @@
-var fs = require('fs');
-var os = require('os');
-var webpack = require('webpack');
-var WebpackDevServer = require('webpack-dev-server');
-var config = require('./webpack.config');
+'use strict';
 
-var serverPort = 54999,
-	devPort = 8082;
+const express = require('express');
+const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
+const helmet = require('helmet');
+const morgan = require('morgan');
+const compression = require('compression');
+const favicon = require('serve-favicon');
+const ua = require('./server/middlewares/ua');
+const serverRender = require('./dist/serverRender');
+const cors = require('cors');
+const uri = require('urijs');
+const CONFIG = require('./config.json');
 
-var exec = require('child_process').exec;
-var cmdStr = 'PORT=' + serverPort + ' supervisor ./bin/www';
+const app = new express();
+// will replace qbt logging tools
+const logger = console;
 
-//请使用win系统的同学，自行更改执行脚本命令吧，前面指定端口号即可，抱歉抱歉，实在不熟
-if(os.platform().toLowerCase().indexOf('win32') > -1){	
-	cmdStr = 'supervisor ./bin/www'
-}
+app.use(favicon(__dirname + '/public/favicon.ico'));
+app.use(morgan('combined'));
+app.use(cors());
+app.use(helmet());
+app.use(compression());
+app.use(cookieParser());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 
-exec(cmdStr, function(err, stdout, stderr){
-	if(err){
-		console.error(err);
-	}
-	else{
-		console.log(stdout);
-	}
+const publicPath = uri(CONFIG.STATIC_PREFIX).path() || '/';
+
+app.use(publicPath, express.static(__dirname + '/dist'));
+
+app.use(ua);
+
+app.use(serverRender);
+
+const PORT = process.env.PORT || 20000;
+const HOST = process.env.HOST || '0.0.0.0';
+
+app.listen(PORT, HOST, () => {
+  logger.info(`Server listening on ${HOST} port ${PORT}`);
 });
-
-for (var i in config.entry) {
-	config.entry[i].unshift('webpack-dev-server/client?http://localhost:' + devPort, "webpack/hot/dev-server")
-}
-config.plugins.push(new webpack.HotModuleReplacementPlugin());
-
-
-var proxy = {
-	"*": "http://localhost:" + serverPort
-};
-//启动服务
-var app = new WebpackDevServer(webpack(config), {
-	publicPath: '/static/',
-	hot: true,
-	proxy: proxy
-});
-
-execWebpack()
-
-app.listen(devPort, function() {
-	console.log('dev server on http://0.0.0.0:' + devPort+'\n');
-});
-
-fs.watch('./src/views/', function() {
-	execWebpack()
-});
-
-function execWebpack(){
-	exec('webpack --progress --hide-modules', function(err, stdout, stderr) {
-		if (err) {
-			console.error(stderr);
-		} else {
-			console.log(stdout);
-		}
-	});
-}

@@ -2,14 +2,234 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="344aa52b-5ea3-4c78-af04-58896be42bbf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/index.js" afterPath="$PROJECT_DIR$/public/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/vendors.js" afterPath="$PROJECT_DIR$/public/scripts/vendors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/page/index.js" afterPath="$PROJECT_DIR$/src/scripts/page/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/index.html" afterPath="$PROJECT_DIR$/src/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about.html" afterPath="$PROJECT_DIR$/views/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/todayRecommend/today_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/addNew.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/arrow-down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/edit-black-down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/edit-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/edit-profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/edit-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/head_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/job/company.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/job/loading_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/job/no_job.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/job/orz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/logo_m.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/open-app/android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/open-app/download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/open-app/ios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/open-app/open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/font/qbt-font.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/font/qbt-font.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/font/qbt-font.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/font/qbt-font.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.npmrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.nvmrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/build.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/start.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/stop.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.json.sample" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/server-render.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foreign.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/process.json.sample" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/middlewares/ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/jobActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/toolBarActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/_comment.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/_item.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/_itemList.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/_postBar.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/_profile.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/_seekJobStatus.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/_tags.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/educationForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/experienceForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/formComponents/arrayTextarea.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/formComponents/gpaInput.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/formComponents/tagInput.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/hobbyForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/honorsForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/issueForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/objectiveForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/othersForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/profileForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/skillForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/view.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/career/worksForm.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/selector.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/drawerMenu/drawerMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/drawerMenu/drawerMenu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/company/Company.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/deliverJob/DeliverJob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/deliverJob/deliverJob.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/fullScreenCarousel/FullScreenCarousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/fullScreenCarousel/fullScreenCarousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/info/Info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/jobDropdown/JobDropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/jobDropdown/jobDropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/jobList/JobItem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/jobList/JobItemDeliver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/jobList/JobList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/jobList/JobListScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/jobList/jobList.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/jobMore/JobMore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/jobMore/jobMore.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/list/List.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/pageLoading/PageLoading.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/pageLoading/pageLoading.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/search/Search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/searchList/SearchList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/searchList/searchList.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/tagList/TagList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/tagList/tagList.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/todayRecommend/TodayRecommend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/todayRecommend/todayRecommend.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/toolBarBottom/ToolBarBottom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/job/toolBarBottom/toolBarBottom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/notFountPage/NotFoundPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/notFountPage/notFountPage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/toolBar/SearchSuggestion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/toolBar/ToolBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/toolBar/toolBar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/ApiUrls_job.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/Job_dropdown_data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/categoryGetter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/intentionCategory.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/issuesCategory.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/skillCategory.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/career/Edit.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/career/View.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/job/CompanyPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/job/DeliverPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/job/FavoritePage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/job/InfoPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/job/ListPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/job/SearchPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/dataStringMappings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/dateHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/formInitialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/jobHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/location.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/career.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/initialState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/jobReducers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/toolBarReducers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routesHelpers/careerEnter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routesHelpers/jobEnter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sagas/career.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sagas/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sagas/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sagas/job.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sagas/selectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sagas/share.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sagas/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/configureStore.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/configureStore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/configureStore.prod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/career/career.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/career/comment.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/career/form.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/career/item.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/career/postBar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/career/profile.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/career/seekJobStatus.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/career/tags.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/common/selector.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/css/animation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/css/qbt-font-codes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/css/qbt-font-embedded.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/css/qbt-font-ie7-codes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/css/qbt-font-ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/css/qbt-font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/font/qbt-font.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/job/job.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/buildHtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/distServer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/srcServer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/loaders.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/webpack.config.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/www" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/imgs/1-c2a0fbb427ef4b2c33a0965be4d52214.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/imgs/3-a3c1ddc02e2cd260f6a28a74226403dd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/imgs/4-d5dc8228efc53d8e3508e136b61a5144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/imgs/jrjy-483363dfaf94b3843490d70424f64681.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/scripts/2.chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/scripts/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/scripts/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/scripts/vendors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/vendors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/imgs/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/imgs/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/imgs/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/imgs/jrjy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/imgs/mask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/dialog/css/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/dialog/img/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/dialog/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/dialog/tmpl/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/page/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/page/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/common/common.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/common/global.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/common/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/page/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/common/_content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/common/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/common/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/common/meta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/common/_content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/common/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/common/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/common/meta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,116 +248,7 @@
     <favorites_list name="test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scripts/page/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#216#255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/components/dialog/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/lib/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="85">
-                <caret line="5" column="23" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="23" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meta.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/common/meta.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/common/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -218,88 +329,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -317,12 +346,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/imgs" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/imgs" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -411,12 +451,12 @@
       <workItem from="1479361923174" duration="4444000" />
       <workItem from="1479434548822" duration="2919000" />
       <workItem from="1479449328204" duration="4773000" />
-      <workItem from="1479693650555" duration="1839000" />
+      <workItem from="1479693650555" duration="2904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34079000" />
+    <option name="totallyTimeSpent" value="35144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="46" width="1920" height="1080" extended-state="6" />
@@ -456,7 +496,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/src/entry2.js" />
     <entry file="file://$PROJECT_DIR$/src/a.scss" />
@@ -646,9 +685,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#216#255#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/stop.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

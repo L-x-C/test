@@ -1,0 +1,48 @@
+.deliver-popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 999;
+}
+.deliver-popup__wrapper {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.deliver-popup__title {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding-left: 3vw;
+  color: #999;
+  font-size: 0.28rem;
+}
+.deliver-popup__list {
+  max-height: 3rem;
+  overflow: auto;
+}
+.deliver-popup__li {
+  height: 0.9rem;
+  line-height: 0.4rem;
+  text-align: center;
+  border-top: 1px solid #f4f4f4;
+  &.deliver-popup__li_one {
+    line-height: 0.9rem;
+    .deliver-popup__li_title {
+      margin-top: 0;
+    }
+  }
+}
+.deliver-popup__li_title {
+  color: #34c0ff;
+  font-size: 0.28rem;
+  margin-top: 0.1rem;
+}
+.deliver-popup__li_time {
+  color: #999;
+  font-size: 0.24rem;
+}

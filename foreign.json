@@ -1,0 +1,103 @@
+{
+  "result" : 200,
+  "info" : [ {
+    "countryId" : "DNK",
+    "name" : "丹麦"
+  }, {
+    "countryId" : "UKR",
+    "name" : "乌克兰"
+  }, {
+    "countryId" : "RUS",
+    "name" : "俄罗斯"
+  }, {
+    "countryId" : "CAN",
+    "name" : "加拿大"
+  }, {
+    "countryId" : "HUN",
+    "name" : "匈牙利"
+  }, {
+    "countryId" : "ZAF",
+    "name" : "南非"
+  }, {
+    "countryId" : "IND",
+    "name" : "印度"
+  }, {
+    "countryId" : "AUT",
+    "name" : "奥地利"
+  }, {
+    "countryId" : "BRA",
+    "name" : "巴西"
+  }, {
+    "countryId" : "DEU",
+    "name" : "德国"
+  }, {
+    "countryId" : "ITA",
+    "name" : "意大利"
+  }, {
+    "countryId" : "NOR",
+    "name" : "挪威"
+  }, {
+    "countryId" : "SGP",
+    "name" : "新加坡"
+  }, {
+    "countryId" : "NZL",
+    "name" : "新西兰"
+  }, {
+    "countryId" : "JPN",
+    "name" : "日本"
+  }, {
+    "countryId" : "BEL",
+    "name" : "比利时"
+  }, {
+    "countryId" : "FRA",
+    "name" : "法国"
+  }, {
+    "countryId" : "POL",
+    "name" : "波兰"
+  }, {
+    "countryId" : "THA",
+    "name" : "泰国"
+  }, {
+    "countryId" : "AUS",
+    "name" : "澳大利亚"
+  }, {
+    "countryId" : "IRL",
+    "name" : "爱尔兰"
+  }, {
+    "countryId" : "SWE",
+    "name" : "瑞典"
+  }, {
+    "countryId" : "CHE",
+    "name" : "瑞士"
+  }, {
+    "countryId" : "BLR",
+    "name" : "白俄罗斯"
+  }, {
+    "countryId" : "USA",
+    "name" : "美国"
+  }, {
+    "countryId" : "FIN",
+    "name" : "芬兰"
+  }, {
+    "countryId" : "GBR",
+    "name" : "英国"
+  }, {
+    "countryId" : "NLD",
+    "name" : "荷兰"
+  }, {
+    "countryId" : "PHL",
+    "name" : "菲律宾"
+  }, {
+    "countryId" : "ESP",
+    "name" : "西班牙"
+  }, {
+    "countryId" : "ARG",
+    "name" : "阿根廷"
+  }, {
+    "countryId" : "KOR",
+    "name" : "韩国"
+  }, {
+    "countryId" : "MYS",
+    "name" : "马来西亚"
+  } ]
+}

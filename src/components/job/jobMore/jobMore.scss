@@ -1,0 +1,28 @@
+.job-more {
+  background: #fff;
+  padding: 0 2vw;
+  overflow: hidden;
+}
+.job-more__content {
+  padding: 0.26rem 3vw;
+  color: #666;
+  font-size: 0.28rem;
+  white-space: pre-wrap;
+  line-height: 1.5;
+  max-height: 1.8rem;
+  overflow: hidden;
+  &.nomax {
+    max-height: none;
+  }
+}
+.job-more__trigger {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  width: 100%;
+  background: #F9F9F9;
+  text-align: center;
+  color: #999;
+  font-size: 0.28rem;
+  margin-bottom: 0.16rem;
+  margin-top: 0.2rem;
+}

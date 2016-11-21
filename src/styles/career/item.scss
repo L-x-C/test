@@ -1,0 +1,74 @@
+.career-view__item {
+  margin-top: 0.3rem;
+  border-top: $career-border;
+  border-bottom: $career-border;
+  padding: 0.2rem;
+  padding-right: 0;
+  background-color: white;
+  overflow: auto;
+}
+.career-view__item-title {
+  display: inline-block;
+  font-size: 0.34rem;
+  line-height: 0.34rem;
+  color: $career-title-color;
+}
+.career-view__item-subtitle {
+  @extend .career-view__item-title;
+  font-size: 0.28rem;
+  line-height: 0.28rem;
+}
+.career-view__item-required {
+  display: inline-block;
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  color: #f00;
+  margin-left: 2px;
+}
+
+.career-view__item-addNew {
+  float: right;
+  width: 0.34rem;
+  height: 0.34rem;
+  margin-right: 0.2rem;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.career-view__item-segment {
+  margin-top: 0.2rem;
+  padding-top: 0.2rem;
+  border-top: $career-border;
+}
+
+.career-view__item-segment-with-arrow {
+  background-image: url('../images/edit-black.png');
+  background-size: 0.17rem 0.31rem;
+  background-repeat: no-repeat;
+  background-position: 7/7.2 * 100% center;
+}
+.career-view__item-segment-with-downarrow{
+  @extend .career-view__item-segment-with-arrow;
+  background-image: url('../images/edit-black-down.png');
+  background-size: 0.31rem 0.17rem;
+}
+
+.career-view__item-segment-periods{
+  font-size: 0.28rem;
+  line-height: 0.28rem;
+  color: $career-font-size-6;
+  padding-bottom: 0.14rem;
+}
+
+.career-view__item-segment-info{
+  @extend .career-view__item-segment-periods;
+  color: $career-font-size-3;
+  padding-bottom: 0.04rem;
+  // margin-right: 1.5rem;
+  width: 6.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}

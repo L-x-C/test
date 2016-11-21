@@ -1,0 +1,30 @@
+.career-view__status {
+  margin-top: 0.3rem;
+  border: $career-border;
+  background-color: white;
+  height: 0.92rem;
+}
+.career-view__status-title {
+  display: inline-block;
+  font-size: 0.3rem;
+  line-height: 0.3rem;
+  margin: 0.31rem 0 0.31rem 0.2rem;
+  color: $career-font-size-3;
+}
+.career-view__status-edit {
+  float: right;
+  height: 0.33rem;
+  width: 0.2rem;
+  padding: 0.29rem 0.2rem 0.3rem 0.3rem;
+  img {
+    width: 100%;
+  }
+}
+
+.career-view__status-string {
+  float: right;
+  color: $career-font-size-9;
+  font-size: 0.28rem;
+  line-height: 0.28rem;
+  padding: 0.32rem 0;
+}

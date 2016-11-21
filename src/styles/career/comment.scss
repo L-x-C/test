@@ -1,0 +1,50 @@
+.career-view__comment-from {
+  overflow: auto;
+  padding-right: 0.2rem;
+}
+.career-view__comment-from-avatar {
+  float: left;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 1rem;
+  height: 1rem;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+.career-view__comment-from-name {
+  margin-left: 1.2rem;
+  padding-top: 0.15rem;
+  font-size: 0.34rem;
+  color: #0F92D7;
+  line-height: 0.4rem;
+  font-weight: bold;
+}
+.career-view__comment-from-relation{
+  margin-left: 1.2rem;
+  font-size: 0.28rem;
+  color: #999999;
+  line-height: 0.4rem;
+}
+.career-view__comment-from-time {
+  float: right;
+  padding-top: 0.15rem;
+  font-size: 0.28rem;
+  line-height: 0.40rem;
+  color: #999999;
+}
+.career-view__comment-content {
+  margin-top: 0.26rem;
+  margin-right: 0.2rem;
+  font-size: 0.28rem;
+  line-height: 0.46rem;
+  color: #666666;
+  word-break: break-all;
+}
+
+.career-view__item-segment-comment-more{
+  font-size: 0.34rem;
+  line-height: 0.4rem;
+  color: #333333;
+}
