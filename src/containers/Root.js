@@ -1,10 +1,10 @@
 import React, {Component, PropTypes} from 'react';
-import {Provider, observer} from 'mobx-react';
+import {Provider} from 'mobx-react';
 import {Router, RouterContext} from 'react-router';
 
 export default class Root extends Component {
   static propTypes = {
-    store: PropTypes.object,
+    stores: PropTypes.object,
     history: PropTypes.object,
     routes: PropTypes.node,
     type: PropTypes.string,
@@ -16,13 +16,13 @@ export default class Root extends Component {
   }
 
   render() {
-    const {state, history, routes, type, renderProps} = this.props;
+    const {stores, history, routes, type, renderProps} = this.props;
     return (
-      <Provider state={state}>
+      <Provider {...stores}>
         {type === 'server'
           ? <RouterContext {...renderProps}/>
           : <Router history={history} routes={routes}/>
-}
+        }
       </Provider>
     );
   }

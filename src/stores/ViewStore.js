@@ -1,6 +1,9 @@
-import {observable} from 'mobx';
+import {observable, action} from 'mobx';
 
 export default class ViewStore {
-	@observable todoBeingEdited = 1;
-	@observable todoFilter= 2;
+  @action changeName() {
+    this.store_name = 'lxc2';
+  }
+	@observable store_name = 'lxc';
 }
+
