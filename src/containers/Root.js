@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import {Provider} from 'react-redux';
+import {Provider, observer} from 'mobx-react';
 import {Router, RouterContext} from 'react-router';
 
 export default class Root extends Component {
@@ -16,10 +16,9 @@ export default class Root extends Component {
   }
 
   render() {
-    const {store, history, routes, type, renderProps} = this.props;
-
+    const {state, history, routes, type, renderProps} = this.props;
     return (
-      <Provider store={store}>
+      <Provider state={state}>
         {type === 'server'
           ? <RouterContext {...renderProps}/>
           : <Router history={history} routes={routes}/>
