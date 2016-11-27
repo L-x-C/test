@@ -49,7 +49,7 @@ webpackJsonp([1],[
 
 	var oP = document.createElement('p');
 	oP.className = 'text';
-	oP.innerHTML = '这是由js生成的一句话。';
+	oP.innerHTML = '这是由js生成的一句话111。';
 	document.querySelector('.g-bd').appendChild(oP);
 
 	//增加事件
