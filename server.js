@@ -11,7 +11,7 @@ var exec = require('child_process').exec;
 var cmdStr = 'PORT=' + serverPort + ' supervisor ./bin/www';
 
 //请使用win系统的同学，自行更改执行脚本命令吧，前面指定端口号即可，抱歉抱歉，实在不熟
-if(os.platform().toLowerCase().indexOf('win32') > -1){	
+if(os.platform().toLowerCase().indexOf('win32') > -1){
 	cmdStr = 'supervisor ./bin/www'
 }
 
