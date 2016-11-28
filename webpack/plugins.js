@@ -12,12 +12,7 @@ export default function getPlugins(env, isServer) {
     new webpack.optimize.OccurrenceOrderPlugin(),
     //Tells React to build in prod mode. https://facebook.github.io/react/downloads.html
     new webpack.DefinePlugin(GLOBALS),
-    new ExtractTextPlugin('/styles.[contenthash].css'),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'commons/commons',
-      filename: '[name]/bundle.js',
-      minChunks: 2
-    })
+    new ExtractTextPlugin('/styles.[contenthash].css')
   ];
 
   if (isServer) {
