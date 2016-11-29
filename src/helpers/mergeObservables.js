@@ -1,4 +1,4 @@
-const { isObservableArray, isObservableMap } = require('mobx')
+const { isObservableArray, isObservableMap } = require('mobx');
 
 /**
  * Helper function that supports merging maps
@@ -8,15 +8,15 @@ const { isObservableArray, isObservableMap } = require('mobx')
 function mergeObservables(target, source) {
     Object.keys(target).forEach(key => {
         if (typeof target[key] === 'object') {
-            if (isObservableMap(target[key])) return target[key].merge(source[key])
-            if (isObservableArray(target[key])) return target[key].replace(source[key])
-            target[key] = source[key]
+            if (isObservableMap(target[key])) return target[key].merge(source[key]);
+            if (isObservableArray(target[key])) return target[key].replace(source[key]);
+            target[key] = source[key];
         } else {
-            target[key] = source[key]
+            target[key] = source[key];
         }
-    })
+    });
 
-    return window.__STATE = target
+    return window.__STATE = target;
 }
 
-module.exports = mergeObservables
+module.exports = mergeObservables;

@@ -6,8 +6,8 @@ import Root from './containers/Root';
 import getRoutes from './routes';
 import ASSETS from '../dist/assets.json';
 import {STATIC_PREFIX} from '../config.json';
-import stores from './stores';
-// import {createServerState} from './stores';
+import {createServerState} from './states';
+import fetchData from './helpers/fetchData';
 
 function renderFullPage(renderedContent, initialState, inWechat) {
   return `<!doctype html>
@@ -36,39 +36,26 @@ function renderFullPage(renderedContent, initialState, inWechat) {
   </html>`;
 }
 
-module.exports = (req, res, next) => {
+module.exports = (req, res) => {
   const inWechat = new RegExp('MicroMessenger', 'i').test(req.headers['user-agent']);
+  let state = createServerState();
   match({
-    routes: getRoutes(stores),
+    routes: getRoutes(),
     location: req.originalUrl
   }, (error, redirectLocation, renderProps) => {
     if (error) {
-        next(error);
+      return res.status(500).send(error.message);
     } else if (redirectLocation) {
       return res.redirect(302, encodeURI(redirectLocation.pathname + redirectLocation.search));
     } else if (renderProps && renderProps.components) {
-      const rootComp = <Root stores={stores} renderProps={renderProps} type="server"/>;
-      res.status(200).send(renderFullPage(renderToString(rootComp), stores, inWechat));
+      return fetchData(renderProps, state).then(() => {
+        const rootComp = <Root states={state} renderProps={renderProps} type="server"/>;
+        res.status(200).send(renderFullPage(renderToString(rootComp), state, inWechat));
+      }).catch((err) => {
+        res.status(400).send('Not found' + err);
+      });
     } else {
       res.status(404).send('Not found');
     }
   });
-  // const state = createServerState()
-  // match({
-  //   routes: getRoutes(),
-  //   location: req.originalUrl
-  // }, (error, redirectLocation, renderProps) => {
-  //   if (error) return res.status(500).send(error.message)
-  //   if (redirectLocation) return res.redirect(302, redirectLocation.pathname + redirectLocation.search)
-  //   if (!renderProps) return res.status(404).send('404 Not found')
-  //
-  //   let statusCode = renderProps.routes[1].path !== '*' ? 200 : 404 // Check for "Not Found" page ( in this case we have path "*" ) and use code 404 if that's the case
-  //
-  //   return fetchData(renderProps, state, actions).then(() => {
-  //     const rootComp = <Root stores={state} renderProps={renderProps} type="server"/>;
-  //     res.status(200).send(renderFullPage(renderToString(rootComp), stores, inWechat));
-  //   }).catch((err) => {
-  //     res.status(400).send('400: An error has occured : ' + err)
-  //   })
-  // })
 };
