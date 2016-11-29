@@ -1,3 +1,3 @@
 export default  {
-  store_name: ''
+  store_name: 'defaultName'
 };

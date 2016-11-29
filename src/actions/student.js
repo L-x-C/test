@@ -2,7 +2,7 @@ import {action} from 'mobx';
 import fetch from 'isomorphic-fetch';
 
 export default {
-  fetchName: action(function(state) {
+  fetchName: action(function(states) {
     // fetch('http://job.qiaobutang.com/job/5429.json', {
     //   credentials: 'include'
     // }).then((res) => {
@@ -14,7 +14,7 @@ export default {
     // });
     return new Promise((resolve)=> {
       setTimeout(function() {
-        state.student.store_name = 'SeverName';
+        states.student.store_name = 'SeverName';
         resolve();
       }, 1000);
     });

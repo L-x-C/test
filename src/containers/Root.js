@@ -16,12 +16,12 @@ export default class Root extends Component {
   }
 
   render() {
-    const {states, history, routes, type, renderProps} = this.props;
+    const {states, history, routes, type, renderProps, onUpdate} = this.props;
     return (
       <Provider {...states}>
         {type === 'server'
           ? <RouterContext {...renderProps}/>
-          : <Router history={history} routes={routes}/>
+          : <Router onUpdate={onUpdate} history={history} routes={routes}/>
         }
       </Provider>
     );

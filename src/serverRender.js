@@ -22,7 +22,7 @@ function renderFullPage(renderedContent, initialState, inWechat) {
       <meta name="apple-mobile-web-app-capable" content="yes">
       <meta name="apple-mobile-web-app-status-bar-style" content="yes">
       <meta name="x5-orientation" content="portrait">
-      <title>乔布简历</title>
+      <title>title</title>
       <link rel="stylesheet" href="${STATIC_PREFIX}${ASSETS.main.css}"/>
     </head>
     <body>

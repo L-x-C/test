@@ -4,11 +4,11 @@
  * @param state - contains our state
  * @returns {Promise} - returns a promise
  */
-export default (renderProps, state) => {
+export default (renderProps, states) => {
     const params = renderProps.params;
     const query = renderProps.location.query;
 
     const fetchDataMethods = renderProps.components.filter(c => c.fetchData).map(c => c.fetchData);
 
-    return Promise.all(fetchDataMethods.map(method => method({state, query, params})));
+    return Promise.all(fetchDataMethods.map(method => method({states, query, params})));
 };
