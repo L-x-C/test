@@ -12,7 +12,7 @@ export default class Root extends Component {
   };
 
   componentDidMount() {
-    window.__INITIAL_STATE__ = null;
+    // window.__INITIAL_STATE__ = null;
   }
 
   render() {

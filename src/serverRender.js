@@ -1,7 +1,7 @@
 import React from 'react';
 import {renderToString} from 'react-dom/server';
 import serialize from 'serialize-javascript';
-import {match, RouterContext, createMemoryHistory} from 'react-router';
+import {match} from 'react-router';
 import Root from './containers/Root';
 import getRoutes from './routes';
 import ASSETS from '../dist/assets.json';
@@ -22,7 +22,7 @@ function renderFullPage(renderedContent, initialState, inWechat) {
       <meta name="apple-mobile-web-app-capable" content="yes">
       <meta name="apple-mobile-web-app-status-bar-style" content="yes">
       <meta name="x5-orientation" content="portrait">
-      <title>title</title>
+      <title>乔布简历</title>
       <link rel="stylesheet" href="${STATIC_PREFIX}${ASSETS.main.css}"/>
     </head>
     <body>

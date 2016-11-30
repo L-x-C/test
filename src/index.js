@@ -5,17 +5,15 @@ import Root from './containers/Root';
 import getRoutes from './routes';
 import './styles/main.scss';
 import {createClientState} from './states';
-// remove 300ms click delay
-import injectTapEventPlugin from 'react-tap-event-plugin';
-injectTapEventPlugin();
 
 let states = createClientState();
-// let ignoreFirstLoad = true;
+
+let ignoreFirstLoad = true;
 function onRouterUpdate() {
-  // if (ignoreFirstLoad || window.__INITIAL_STATE__) {
-  //   ignoreFirstLoad = false;
-  //   return;
-  // }
+  if (ignoreFirstLoad && window.__INITIAL_STATE__) {
+    ignoreFirstLoad = false;
+    return;
+  }
 
   // Page changed, executing fetchData
   let params = this.state.params;
@@ -24,5 +22,7 @@ function onRouterUpdate() {
     c.fetchData({states, params, query})
   });
 }
+
+
 render(<Root states={states} onUpdate={onRouterUpdate} history={browserHistory}
              routes={getRoutes()}/>, document.getElementById('app'));
