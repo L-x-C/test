@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="344aa52b-5ea3-4c78-af04-58896be42bbf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/favicon.ico" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Root.js" afterPath="$PROJECT_DIR$/src/containers/Root.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serverRender.js" afterPath="$PROJECT_DIR$/src/serverRender.js" />
-    </list>
+    <list default="true" id="344aa52b-5ea3-4c78-af04-58896be42bbf" name="Default" comment="" />
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -377,12 +371,12 @@
       <workItem from="1480039467797" duration="17759000" />
       <workItem from="1480298405507" duration="12879000" />
       <workItem from="1480328706982" duration="18560000" />
-      <workItem from="1480471378315" duration="2826000" />
+      <workItem from="1480471378315" duration="2871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93762000" />
+    <option name="totallyTimeSpent" value="93807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="46" width="1920" height="1080" extended-state="0" />
