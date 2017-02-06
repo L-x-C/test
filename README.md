@@ -1,13 +1,63 @@
+# test
 
-### 快速开始
+## How to use
 
-```bash
-git clone https://github.com/vhtml/webpack-MultiplePage.git  #克隆最新项目到本地
-cd webpack-MultiplePage  #切换到项目路径下
-npm install	#安装依赖
-node server #执行开发环境脚本，因为server.js中使用supervisor启动node程序，你可能需要全局安装一下supervisor
+```
+git clone git@github.com:QiaoBuTang/admin.git
+cd admin
+npm install
 ```
 
-在浏览器中打开http://localhost:8082/。
+## Dev (client-side rendering)
 
-如果需要上线，执行`npm run build`完成最终项目打包即可。
+```
+npm start -s (-s is optional，will neglect unimportant message)
+open http://localhost:3006
+```
+
+## Production (server-side rendering)
+```
+npm run server
+
+open http://localhost:20006
+```
+it equals to
+```
+npm run build
+npm run production
+
+open http://localhost:20006
+```
+
+## F.A.Q
+## How to fetch data on the server side?
+
+Adding a `onEnter` function to a component, if you want to fetch another data after fetch the first, you should use `Promise`
+
+```
+@action
+static onEnter({states, query, params}) {
+    return Promise.all([
+      menuActions.changeMenuTitle(states, 'serverTitle'),
+      studentActions.fetchName(states),
+      studentActions.fetchName2(states)
+    ]).then(values => {
+      //do something
+    });
+}
+```
+
+## How to redirect on the server side?
+
+In `src/helpers/location.js`, there is a `redirect` function, you can just import it and use.
+The `catchErr` in `src/serverRender.js` will catch the redirect command and redirect as you wish.
+It works on both server and client side.
+
+```
+import {redirect} from './helpers/location';
+
+@action
+static onEnter({states, query, params}) {
+    redirect('http://www.xxx.com');
+}
+```

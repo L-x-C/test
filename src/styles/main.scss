@@ -1,0 +1,19 @@
+@import './vender/antd.css';
+@import "./vender/nprogress.css";
+@import './variables.scss';
+@import './font/iconfont.css';
+@import './reset.scss';
+$nprogressColor: #fff798;
+
+#nprogress {
+  .bar {
+    background: $nprogressColor;
+  }
+  .spinner-icon {
+    border-top-color: $nprogressColor;
+    border-left-color: $nprogressColor;
+  }
+  .peg {
+    box-shadow: 0 0 10px $nprogressColor, 0 0 5px $nprogressColor;
+  }
+}
